@@ -8,11 +8,21 @@ const addIdea = document.querySelector('.js-record'),
 const USER_LS = 'currentUser';
 const WEATHER_LS = 'currentWeather';
 
+function paintIdea(idea) {
+    const li = document.createElement('li');
+    const delBtn = document.createElement('button');
+    const span = document.createElement('span');
+    delBtn.innerText = "❌";
+    span.innerText = idea;
+    li.appendChild(delBtn);
+    li.appendChild(span);
+    tankList.appendChild(li);
+}
+
 function handleInput(event) {
     event.preventDefault();
     const text = addIdea.querySelector('input').value;
-    console.log(text);
-
+    paintIdea(text);
 }
 function getTime() {
     const time = new Date();
