@@ -3,7 +3,7 @@ const addIdea = document.querySelector('.js-record'),
     clock = document.querySelector('.timeWeather').querySelector('div:nth-child(1)'),
     weather = document.querySelector('.timeWeather').querySelector('div:nth-child(2)'),
     API = '0df1fd45f42e3e488478273b9f8ba1f8',
-    userName = document.querySelector('.js-name');
+    userName = document.querySelector('.js-name'); //good
 
 const USER_LS = 'currentUser';
 const WEATHER_LS = 'currentWeather';
