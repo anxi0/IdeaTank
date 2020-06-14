@@ -1,0 +1,28 @@
+.hehe:hover{
+    color: red;
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+.record{
+    text-align: center;
+    width: 1000px;
+}
+body{
+    background-color: black;
+    color: green;
+}
+.timeWeather{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.image{
+    position: absolute;
+    bottom : 0;
+    height: 70px;
+    
+}

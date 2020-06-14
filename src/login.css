@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    color: white;
+    background-color: black;
+}
+h1{
+    color: green;
+}
